@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body>
+
+  <!-- Rating state start -->
+  <main id="front">
+    <div class="circle">
+      <img src="images/icon-star.svg" alt="star-icon" width="20px">
+    </div>
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <div class="circle-btn">
+      <a id="rate1"  href="#">1</a>
+      <a id="rate2" href="#">2</a>
+      <a id="rate3" href="#">3</a>
+      <a id="rate4" href="#">4</a>
+      <a id="rate5" href="#">5</a>
+    </div>
+    <button id="submit-btn">SUBMIT</button>
+  </main>
+
+<script type="text/javascript" src="script.js"></script>
+  <section id="back">
+    <img src="images/illustration-thank-you.svg" alt="mobile-device-with-submiting-card" width="200px">
+    <div class="selected">You selected 
+      <span id="rating">0</span> out of 5
+    </div>
+    <h2>Thank you!</h2>
+    <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+  </section>
+</body>
+</html>

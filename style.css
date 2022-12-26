@@ -1,0 +1,100 @@
+body {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  font-family: 'Overpass', sans-serif;
+}
+
+main {
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 20px;
+}
+
+.circle {
+  box-sizing: border-box;
+  border-radius: 40px;
+  width: 15%;
+  height: 15%;
+  background-color: hsla(216, 12%, 54%, 20%);
+  text-align: center;
+  padding-top: 15px;
+}
+
+.circle-btn a {
+  box-sizing: border-box;
+  border-radius: 40px;
+  width: 20%;
+  height: 15%;
+  background-color: hsla(216, 12%, 54%, 20%);
+  text-align: center;
+  padding: 20px 25px;
+  margin-right: 8px;
+  line-height: 50px;
+  color: hsl(217, 12%, 63%);
+}
+
+.circle-btn a:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+button {
+  margin-top: 10%;
+  border-radius: 25px;
+  border: 0px solid hsl(25, 97%, 53%);
+  padding: 15px 30px;
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 5px;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+p {
+  line-height: 20px;
+  color: hsl(217, 12%, 63%);
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+
+section {
+  display: none;
+}
+
+section {
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 30px;
+  text-align: center;
+}
+
+.selected {
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 80%;
+  padding: 10px;
+  color: hsl(25, 97%, 53%);
+  background-color: hsla(217, 12%, 63%, 50%);
+  margin: 10px;
+  display: inline-block;
+}
